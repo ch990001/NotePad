@@ -9,7 +9,7 @@
     <Grid Background="#FF6EDFE3">
         <Button x:Name="btnOpen" Content="開啟檔案" HorizontalAlignment="Left" Margin="14,7,0,0" VerticalAlignment="Top" Click="btnOpen_Click" Width="75"/>
         <Button x:Name="btnSave" Content="存檔" HorizontalAlignment="Left" Margin="94,7,0,0" VerticalAlignment="Top" Width="79" Click="btnSave_Click"/>
-        <RichTextBox x:Name="rtbText" Height="NaN" Margin="10,31,10,15" Width="NaN" FontSize="16" TextChanged="rtbText_TextChanged">
+        <RichTextBox x:Name="rtbText" Height="NaN" Margin="10,31,10,15" Width="NaN" FontSize="16" Background="White">
             <FlowDocument>
                 <Paragraph>
                     <Run Text="RichTextBox"/>
